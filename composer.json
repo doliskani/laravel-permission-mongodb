@@ -1,19 +1,19 @@
 {
-    "name": "mostafamaklad/laravel-permission-mongodb",
-    "description": "Permission handling for Laravel 5.2 and up using mongodb",
-    "version": "dev-master",
+    "name": "doliskani/laravel-permission-mongodb",
+    "description": "Permission handling for Laravel 10 and up using mongodb",
     "keywords": [
         "laravel",
         "security",
         "mongodb",
         "permission",
         "acl",
+        "doliskani",
         "mostafamaklad",
         "maklad",
         "mostafa",
         "spatie"
     ],
-    "homepage": "https://github.com/mostafamaklad/laravel-permission-mongodb",
+    "homepage": "https://github.com/doliskani/laravel-permission-mongodb",
     "license": "MIT",
     "authors": [
         {
@@ -30,15 +30,15 @@
         }
     ],
     "require": {
-        "php": "^8.2",
-        "illuminate/auth": "^11.0",
-        "illuminate/container": "^11.0",
-        "illuminate/contracts": "^11.0",
-        "mongodb/laravel-mongodb": "^5.5"
+        "php": "^8.1",
+        "illuminate/auth": "^10.0",
+        "illuminate/container": "^10.0",
+        "illuminate/contracts": "^10.0",
+        "mongodb/laravel-mongodb": "^4.0"
     },
     "require-dev": {
         "monolog/monolog": "^3.2",
-        "orchestra/testbench": "^9.0",
+        "orchestra/testbench": "^8.0",
         "phpunit/phpunit": "^10.0",
         "squizlabs/php_codesniffer": "^3.7"
     },
